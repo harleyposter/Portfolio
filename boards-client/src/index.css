@@ -10,4 +10,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+
+}
+
+@font-face {
+  font-family: 'aAtmospheric';
+  src: local('aAtmospheric'), url(./assets/aAtmospheric.ttf) format('ttf');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
