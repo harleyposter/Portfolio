@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Boards/static/css/main.0e04060e.css",
-    "main.js": "/Boards/static/js/main.65e61afb.js",
+    "main.js": "/Boards/static/js/main.f42129ee.js",
     "static/js/453.3d4d8ab5.chunk.js": "/Boards/static/js/453.3d4d8ab5.chunk.js",
     "static/media/BlundgeonLogo2.png": "/Boards/static/media/BlundgeonLogo2.f28ef0900c212ac6550e.png",
     "static/media/GroundwardLogo3.png": "/Boards/static/media/GroundwardLogo3.ec9c972c9fcc07b5ea6f.png",
@@ -11,11 +11,11 @@
     "static/media/aAtmospheric.ttf": "/Boards/static/media/aAtmospheric.3540b4a8aa144f37c94e.ttf",
     "index.html": "/Boards/index.html",
     "main.0e04060e.css.map": "/Boards/static/css/main.0e04060e.css.map",
-    "main.65e61afb.js.map": "/Boards/static/js/main.65e61afb.js.map",
+    "main.f42129ee.js.map": "/Boards/static/js/main.f42129ee.js.map",
     "453.3d4d8ab5.chunk.js.map": "/Boards/static/js/453.3d4d8ab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e04060e.css",
-    "static/js/main.65e61afb.js"
+    "static/js/main.f42129ee.js"
   ]
 }
