@@ -9,6 +9,9 @@ import About from "./pages/About";
 import { AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography } from '@mui/material';
 import { theme } from "./components/Theming"
 import ADLogo from "./assets/AidanDavidsonLogo2.png"
+import SpaceMerchantPage from './pages/projects/SpaceMerchant';
+import { SpaceMerchant } from './components/Project';
+
 
 
 
@@ -63,7 +66,7 @@ function App() {
                 <Route path="/SIP" element={<SIP />} />
                 <Route path="/About" element={<About />} />
 
-                <Route path="/Projects/SpaceMerchant" element={<></>} />
+                <Route path="/Projects/SpaceMerchant" element={<SpaceMerchantPage />} />
                 <Route path="/Projects/PowerHouse" element={<></>} />
                 <Route path="/Projects/SubTerraneanPhysicsComplex" element={<></>} />
                 <Route path="/Projects/Blundgeon" element={<></>} />

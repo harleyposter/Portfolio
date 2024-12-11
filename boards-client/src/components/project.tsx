@@ -146,7 +146,7 @@ export function Project(props: ProjectProps) {
                   {"Status: " + props.status}
                 </Container>
               </div>
-              <Button style={{ flex: 1, margin: 10, padding: 1 }} variant={"contained"} onClick={() => navigate("/Projects")}>
+              <Button style={{ flex: 1, margin: 10, padding: 1 }} variant={"contained"} onClick={() => navigate(props.link)}>
                 <Typography variant="h6" color="white" component="div">
                   View
                 </Typography>
