@@ -15,6 +15,9 @@ import SpaceMerchantPage from './pages/projects/SpaceMerchant';
 import PowerHousePage from './pages/projects/PowerHouse';
 import STPCPage from './pages/projects/SubterraneanPhysicsComplex';
 import BlundgeonPage from './pages/projects/Blundgeon';
+import CeValuatePage from './pages/projects/CeValuate';
+import GroundwardPage from './pages/projects/Groundward';
+import UE2DToolPage from './pages/projects/UE2DTool';
 
 
 
@@ -65,16 +68,16 @@ function App() {
             <Routes>
                 <Route path="/Projects" element={<Home />} />
                 <Route path="/Boards" element={<Boards />} />
-                <Route path="/SIP" element={<SIP />} />
+                <Route path="/SIP" element={<UE2DToolPage />} />
                 <Route path="/About" element={<About />} />
 
                 <Route path="/Projects/SpaceMerchant" element={<SpaceMerchantPage />} />
                 <Route path="/Projects/PowerHouse" element={<PowerHousePage />} />
                 <Route path="/Projects/SubTerraneanPhysicsComplex" element={<STPCPage />} />
                 <Route path="/Projects/Blundgeon" element={<BlundgeonPage />} />
-                <Route path="/Projects/CeValuate" element={<></>} />
-                <Route path="/Projects/Groundward" element={<></>} />
-                <Route path="/Projects/UnrealEngineCollisionTool" element={<></>} />
+                <Route path="/Projects/CeValuate" element={<CeValuatePage />} />
+                <Route path="/Projects/Groundward" element={<GroundwardPage />} />
+                <Route path="/Projects/UE2DTool" element={<UE2DToolPage />} />
                 <Route path="/Projects/TankGame" element={<></>} />
 
             </Routes>
