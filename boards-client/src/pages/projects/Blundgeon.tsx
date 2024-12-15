@@ -51,8 +51,8 @@ function BlundgeonPage() {
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video url={"https://youtu.be/u5oEAMnwilE"} />
-                        <ImageDisplay images={[BGItems, BGInv, BGChest, BGPlayer]} cols={1} />
+                        <Video title={"Trailer"} url={"https://youtu.be/u5oEAMnwilE"} />
+                        <ImageDisplay title={"Screenshots"} images={[BGItems, BGInv, BGChest, BGPlayer]} cols={1} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

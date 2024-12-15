@@ -52,8 +52,8 @@ function GroundwardPage() {
 
                     </Stack>
                     <Stack direction='row' >
-                        {<Video url={"https://www.youtube.com/watch?v=G9CGZUBJ9GU"} />}
-                        <ImageDisplay images={[GWTower, GWTower3D]} cols={2} />
+                        {<Video title={"Trailer"} url={"https://www.youtube.com/watch?v=G9CGZUBJ9GU"} />}
+                        <ImageDisplay title={"Screenshots"} images={[GWTower, GWTower3D]} cols={2} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

@@ -55,8 +55,8 @@ function PowerHousePage() {
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video url={"https://www.youtube.com/watch?v=0YSHUuXCwtI"} />
-                        <ImageDisplay images={[PHTitle, PHTool, PHMenu, PHReactor, PHLake, PHItems]} cols={1} />
+                        <Video title={"Gameplay"} url={"https://www.youtube.com/watch?v=0YSHUuXCwtI"} />
+                        <ImageDisplay title={"Screenshots"} images={[PHTitle, PHTool, PHMenu, PHReactor, PHLake, PHItems]} cols={1} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

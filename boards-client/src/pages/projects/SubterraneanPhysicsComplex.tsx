@@ -53,8 +53,8 @@ function STPCPage() {
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video url={"https://youtu.be/1AxDxRrdXSk"} />
-                        <ImageDisplay images={[STPCTitle, STPCBun1, STPCLab, STPCBun2, STPCQuar]} cols={1} />
+                        <Video title={"Gameplay"} url={"https://youtu.be/1AxDxRrdXSk"} />
+                        <ImageDisplay title={"Screenshots"} images={[STPCTitle, STPCBun1, STPCLab, STPCBun2, STPCQuar]} cols={1} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

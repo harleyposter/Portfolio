@@ -14,6 +14,11 @@ import UE2DMap from '../../assets/UE2DTool/UE2DMap.png'
 import UE2DR1 from '../../assets/UE2DTool/UE2DRender1.png'
 import UE2DR2 from '../../assets/UE2DTool/UE2DRender2.png'
 
+import UE2DP1 from '../../assets/UE2DTool/UE2DProto1.png'
+import UE2DP2 from '../../assets/UE2DTool/UE2DProto2.png'
+import UE2DP3 from '../../assets/UE2DTool/UE2DProto3.png'
+import UE2DP4 from '../../assets/UE2DTool/UE2DProto4.png'
+
 function UE2DToolPage() {
     return (
         <div className="App">
@@ -23,7 +28,7 @@ function UE2DToolPage() {
                         UE5 2DTILEMAP++
                     </Container>
                 </Container>
-                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 400 }}>
+                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 320 }}>
                     <img src={UE2DLogo} height={300} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
@@ -58,6 +63,7 @@ function UE2DToolPage() {
                                 </Container>
                             </Stack>
                         </Stack>
+                        <ImageDisplay title={"Planning, Development, and Prototypes"} images={[UE2DP1, UE2DP2, UE2DP3, UE2DP4]} cols={2} />
                     </Stack >
                 </ Container >
 
@@ -81,8 +87,8 @@ function UE2DToolPage() {
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video url={"https://youtu.be/RYcVDUj6s08"} />
-                        <ImageDisplay images={[UE2DMap, UE2DRef, UE2DR1, UE2DR2]} cols={1} />
+                        <Video title={"Video Demonstration"} url={"https://youtu.be/RYcVDUj6s08"} />
+                        <ImageDisplay title={"Screenshots"} images={[UE2DMap, UE2DRef, UE2DR1, UE2DR2]} cols={1} />
                     </Stack>
                 </Stack>
             </header>

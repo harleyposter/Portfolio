@@ -6,6 +6,7 @@ import { theme } from "./Theming";
 
 export interface VideoProps {
     url: string
+    title: string
 }
 
 
@@ -13,11 +14,16 @@ export function Video(props: VideoProps) {
 
     return (
         <Container style={{ flex: 1, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize, }}>
-            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                <Container style={{ marginTop: 50, marginBottom: 60 }}>
-                    <ReactPlayer url={props.url} width={'100%'} />
+            <Stack>
+                <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginBottom: 10 }}>
+                    {props.title}
                 </Container>
-            </Container>
+                <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                    <Container style={{ marginTop: 50, marginBottom: 60 }}>
+                        <ReactPlayer url={props.url} width={'100%'} />
+                    </Container>
+                </Container>
+            </Stack>
         </ Container >
     )
 };
