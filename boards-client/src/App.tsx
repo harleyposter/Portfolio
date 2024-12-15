@@ -9,10 +9,12 @@ import About from "./pages/About";
 import { AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography } from '@mui/material';
 import { theme } from "./components/Theming"
 import ADLogo from "./assets/AidanDavidsonLogo2.png"
+
+
 import SpaceMerchantPage from './pages/projects/SpaceMerchant';
-import { SpaceMerchant } from './components/Project';
-
-
+import PowerHousePage from './pages/projects/PowerHouse';
+import STPCPage from './pages/projects/SubterraneanPhysicsComplex';
+import BlundgeonPage from './pages/projects/Blundgeon';
 
 
 
@@ -67,10 +69,11 @@ function App() {
                 <Route path="/About" element={<About />} />
 
                 <Route path="/Projects/SpaceMerchant" element={<SpaceMerchantPage />} />
-                <Route path="/Projects/PowerHouse" element={<></>} />
-                <Route path="/Projects/SubTerraneanPhysicsComplex" element={<></>} />
-                <Route path="/Projects/Blundgeon" element={<></>} />
+                <Route path="/Projects/PowerHouse" element={<PowerHousePage />} />
+                <Route path="/Projects/SubTerraneanPhysicsComplex" element={<STPCPage />} />
+                <Route path="/Projects/Blundgeon" element={<BlundgeonPage />} />
                 <Route path="/Projects/CeValuate" element={<></>} />
+                <Route path="/Projects/Groundward" element={<></>} />
                 <Route path="/Projects/UnrealEngineCollisionTool" element={<></>} />
                 <Route path="/Projects/TankGame" element={<></>} />
 
