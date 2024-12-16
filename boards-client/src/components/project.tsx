@@ -92,8 +92,8 @@ export const GroundWard = () => {
 
 export const UE2DCollisionTool = () => {
   return (
-    <Project title={"Unreal Engine 2D Collision Tool"}
-      desc={"The UE5 2D Collision Tool adds functionality for both creating and editing 2D Collision using Tile Maps. Upload a map texture, and tiles will be created based on a created rerference table. Also can dynamically create collision based on a camera view, allowing for 2D"}
+    <Project title={"Unreal Engine 2DTilemap++"}
+      desc={"Unreal Engine 2DTilemap++ adds functionality for both creating and editing 2D Collision using Tile Maps. Upload a map texture, and tiles will be created based on a created rerference table. Also can dynamically create collision based on a camera view, allowing for 2D slices of 3D Models."}
       type={"Unreal Engine 5 Addon"}
       link={"/Projects/UE2DTool"}
       date={"November 20, 2024"}
@@ -108,7 +108,7 @@ export function Project(props: ProjectProps) {
 
   return (
     <>
-      <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+      <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 5, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
         <Stack>
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60" }}>
             <Stack style={{ margin: 10 }} direction={"row"}>

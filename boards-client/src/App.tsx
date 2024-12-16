@@ -54,11 +54,11 @@ function App() {
                                     About
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/About")}>
+                            {/*<Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/About")}>
                                 <Typography variant="h6" color="white" component="div">
                                     Contact
                                 </Typography>
-                            </Button>
+                            </Button>*/}
                         </Box>
                     </Toolbar>
                 </Container>

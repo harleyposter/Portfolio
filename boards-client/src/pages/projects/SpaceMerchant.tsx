@@ -11,6 +11,8 @@ import { ImageDisplay } from '../../components/ImageDisplay';
 
 import SMSS1 from '../../assets/SpaceMerchant/SMSS1.png'
 import SMTitle from '../../assets/SpaceMerchant/SMTitle.png'
+import SMMenu1 from '../../assets/SpaceMerchant/SMMenu.png'
+import SMMenu2 from '../../assets/SpaceMerchant/SMMenu2.png'
 
 function SpaceMerchantPage() {
     return (
@@ -53,7 +55,7 @@ function SpaceMerchantPage() {
                     </Stack>
                     <Stack direction='row' >
                         <Video title={"Trailer"} url={"https://youtu.be/fpnH0ytoCMA"} />
-                        <ImageDisplay title={"Screenshots"} images={[SMTitle, SMSS1]} cols={2} />
+                        <ImageDisplay title={"Screenshots"} images={[SMTitle, SMSS1, SMMenu1, SMMenu2]} cols={2} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

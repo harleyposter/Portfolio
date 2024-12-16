@@ -6,6 +6,7 @@ import { Project, ProjectProps } from "./Project";
 
 interface ObjectiveProps {
   projects: JSX.Element[],
+  objectiveText: string[],
   title: string,
   desc: string,
   status: string,
@@ -15,9 +16,16 @@ export function Objective(props: ObjectiveProps) {
   const navigate = useNavigate();
 
 
-  const projects = props.projects.map((proj) => {
-    return proj;
-  })
+  const projects = props.projects.map((proj, index) => {
+    return (<>
+      {proj}
+      <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, marginTop: -5, marginLeft: 5, marginBottom: 20, fontSize: theme.typography.h5.fontSize }}>
+        <Container style={{ textAlign: "left", fontVariantCaps: "all-petite-caps" }}>
+          Objective Info: {props.objectiveText[index]}
+        </Container>
+      </ Container >
+    </>)
+  });
 
   return (
     <>
