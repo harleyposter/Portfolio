@@ -65,6 +65,8 @@ function App() {
             </AppBar>}
 
 
+
+
             <Routes>
                 <Route path="/Projects" element={<Home />} />
                 <Route path="/Boards" element={<Boards />} />
@@ -81,7 +83,9 @@ function App() {
                 <Route path="/Projects/TankGame" element={<></>} />
 
             </Routes>
+            <footer >@2024 Aidan Davidson All Rights Reserved</footer>
         </ThemeProvider >
+
     )
 };
 
