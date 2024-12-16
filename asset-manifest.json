@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Boards/static/css/main.39d634e6.css",
-    "main.js": "/Boards/static/js/main.9fb59b94.js",
+    "main.js": "/Boards/static/js/main.9046705b.js",
     "reactPlayerYouTube.js": "/Boards/static/js/reactPlayerYouTube.4abd31e6.chunk.js",
     "reactPlayerSoundCloud.js": "/Boards/static/js/reactPlayerSoundCloud.65b6673d.chunk.js",
     "reactPlayerVimeo.js": "/Boards/static/js/reactPlayerVimeo.eff1b8b5.chunk.js",
@@ -52,11 +52,11 @@
     "static/media/UE2DRef.png": "/Boards/static/media/UE2DRef.ab0635e1f7b28fdd31ba.png",
     "static/media/STPCLogo2.png": "/Boards/static/media/STPCLogo2.afd40934b4d270eeef12.png",
     "static/media/GWTower.png": "/Boards/static/media/GWTower.c9db1bee739c177f89f9.png",
-    "static/media/AidanDavidsonLogo2.png": "/Boards/static/media/AidanDavidsonLogo2.1efecb94f909dcc1fe88.png",
+    "static/media/AidanDavidsonLogo3.png": "/Boards/static/media/AidanDavidsonLogo3.d9ebbc6f12bdd7f62265.png",
     "static/media/aAtmospheric.ttf": "/Boards/static/media/aAtmospheric.3540b4a8aa144f37c94e.ttf",
     "index.html": "/Boards/index.html",
     "main.39d634e6.css.map": "/Boards/static/css/main.39d634e6.css.map",
-    "main.9fb59b94.js.map": "/Boards/static/js/main.9fb59b94.js.map",
+    "main.9046705b.js.map": "/Boards/static/js/main.9046705b.js.map",
     "reactPlayerYouTube.4abd31e6.chunk.js.map": "/Boards/static/js/reactPlayerYouTube.4abd31e6.chunk.js.map",
     "reactPlayerSoundCloud.65b6673d.chunk.js.map": "/Boards/static/js/reactPlayerSoundCloud.65b6673d.chunk.js.map",
     "reactPlayerVimeo.eff1b8b5.chunk.js.map": "/Boards/static/js/reactPlayerVimeo.eff1b8b5.chunk.js.map",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.39d634e6.css",
-    "static/js/main.9fb59b94.js"
+    "static/js/main.9046705b.js"
   ]
 }
