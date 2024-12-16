@@ -21,9 +21,11 @@ export function Features(props: FeaturesProps) {
 
   const CreateFeaturesList = props.features.map(feature => {
     return (
-      <Container style={{ margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h5.fontSize }}>
-        - {feature}
-      </Container>
+      <li>
+        <Container style={{ margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h5.fontSize }}>
+          {feature}
+        </Container>
+      </li>
     )
   });
 
@@ -36,7 +38,9 @@ export function Features(props: FeaturesProps) {
             FEATURES
           </Container>
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize, textAlign: "left" }}>
-            {CreateFeaturesList}
+            <ul>
+              {CreateFeaturesList}
+            </ul>
           </Container>
         </Stack >
       </ Container >

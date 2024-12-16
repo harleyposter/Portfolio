@@ -47,7 +47,7 @@ function BlundgeonPage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Fast Arena Shooter Movement", "4 Special Classes", "Crazy PvE and PvP Gameplay", "Over 700 Detailed Sprites", "4-16 Lobby Multiplayer Mayhem"]} />
+                        <Features features={["Fast arena shooter movement", "4 special classes", "Crazy PvE and PvP gameplay", "Over 700 detailed sprites", "4 lobby multiplayer mayhem"]} />
 
                     </Stack>
                     <Stack direction='row' >

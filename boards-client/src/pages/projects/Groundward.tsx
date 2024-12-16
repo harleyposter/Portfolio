@@ -48,7 +48,7 @@ function GroundwardPage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Mindbending 2.5D Platforming", "7 Distinct Biomes", "Hundreds of Unique Rooms", "Secret Codes and Cyphers to Learn", "A Quiet, but Rich Story"]} />
+                        <Features features={["Mindbending 2.5D platforming", "7 distinct biomes", "Hundreds of unique rooms", "Secret codes and cyphers to learn", "A quiet, but rich story"]} />
 
                     </Stack>
                     <Stack direction='row' >

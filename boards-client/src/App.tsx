@@ -8,7 +8,7 @@ import About from "./pages/About";
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import { AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography } from '@mui/material';
 import { theme } from "./components/Theming"
-import ADLogo from "./assets/AidanDavidsonLogo2.png"
+import ADLogo from "./assets/AidanDavidsonLogo3.png"
 
 
 import SpaceMerchantPage from './pages/projects/SpaceMerchant';

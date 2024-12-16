@@ -48,7 +48,7 @@ function CeValuatePage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Import Claim Information from the Database", "Utilize Web APIs to automatically find pricing for items", "Return value sources for adjuster review", "Display, Save, and Edit Item Claim Information from Front End App", "Automatically Calculate Item Valuation from Age, Depreciation, and Condition", "Provide a Document Export to Contain All Items and Information"]} />
+                        <Features features={["Import claim information from the database", "Utilize web APIs to automatically find pricing for items", "Return value sources for adjuster review", "Display, save, and edit item claim information from a front end app", "Automatically calculate item valuation from age, depreciation, and condition", "Provide a document export to contain all items and information"]} />
                     </Stack>
                     <Stack direction='row' >
                         <ImageDisplay title={"Item List Display"} images={[CeVMain]} cols={1} />

@@ -83,7 +83,7 @@ function UE2DToolPage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Generate TileMaps from a Reference Texture", "Create Realtime TileMaps based on a Camera Render", "Use Custom Collision Channels to Make Masked Collision", "Easy to Use, Just Plug in and Initialize the Table", "Turns a Multiple Hour Project into 5-10 Minutes"]} />
+                        <Features features={["Generate tileMaps from a reference texture", "Create realtime tileMaps based on a camera render", "Use custom collision channels to make filtered collision", "Easy to use, just plug in and hit play", "Turns a multiple hour project into 5-10 minutes"]} />
 
                     </Stack>
                     <Stack direction='row' >

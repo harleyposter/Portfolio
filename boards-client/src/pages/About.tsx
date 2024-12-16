@@ -41,7 +41,7 @@ function About() {
           </Container>
 
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.h6.fontSize, padding: 10 }}>
-            &ensp;&ensp;&ensp;My name is Aidan Davidson, and I am a 21 year old college student at UAT (University of Advancing Technology).
+            &ensp;&ensp;&ensp;My name is Aidan Davidson, and I am a college student at UAT (University of Advancing Technology).
             I have been a Game Programmer for 8+ years, with experience in Unreal Engine, Unity, Java, React, C++, C#, SQL, and more.
             I have been playing video games since I was young, and the effort they put in inspired me to become a game developer myself.
             So far I have up dozens of projects under my belt, all in different engines, different styles, different purposes, and different languages.

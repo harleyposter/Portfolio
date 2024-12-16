@@ -50,7 +50,7 @@ function SpaceMerchantPage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Galaga-style Shoot-em-up Gameplay", "Resource Management of materials and ammo", "Run-based upgrades", "3 Unique Bosses", "Permanent Progression", "Cosmetic Customization", "Unlockable Skill Trees"]} />
+                        <Features features={["Galaga-style shoot-em-up gameplay", "Resource management of materials and ammo", "Run-based upgrades", "3 unique bosses", "Permanent progression", "Cosmetic customization", "Unlockable skill trees"]} />
 
                     </Stack>
                     <Stack direction='row' >

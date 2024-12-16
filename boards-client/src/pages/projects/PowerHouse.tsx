@@ -51,7 +51,7 @@ function PowerHousePage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Original Metroid Style Action", "Fun and Simple Story", "3 Large Levels to Explore", "5 Unique Boss Fights and dozens of enemies", "12+ Unique Upgrades", "Shortcuts and Hidden Techniques"]} />
+                        <Features features={["Original Metroid style action", "Fun and simple story", "3 large levels to explore", "5 unique boss fights and dozens of enemies", "12+ unique upgrades", "Shortcuts and hidden techniques"]} />
 
                     </Stack>
                     <Stack direction='row' >

@@ -49,7 +49,7 @@ function STPCPage() {
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Quick 2D Platforming", "4 Levels with unique mechanics", "Optional Collectibles", "Level Specific Secrets", "Speedrun Timers and Statistics"]} />
+                        <Features features={["Quick 2D platforming", "4 levels with unique mechanics", "Optional collectibles", "Level specific secrets", "Speedrun timers and statistics"]} />
 
                     </Stack>
                     <Stack direction='row' >
