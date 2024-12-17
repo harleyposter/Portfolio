@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import '../App.css';
-import { Project, SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool } from '../components/Project';
+import { Project, SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool, GemScape } from '../components/Project';
 import { Stack } from '@mui/material';
 
 
@@ -18,6 +18,7 @@ function Home() {
           {CeValuate()}
           {GroundWard()}
           {UE2DCollisionTool()}
+          {GemScape()}
         </Stack>
       </header>
     </div>

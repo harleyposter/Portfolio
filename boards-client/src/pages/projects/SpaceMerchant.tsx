@@ -57,16 +57,25 @@ function SpaceMerchantPage() {
                         <Video title={"Trailer"} url={"https://youtu.be/fpnH0ytoCMA"} />
                         <ImageDisplay title={"Screenshots"} images={[SMTitle, SMSS1, SMMenu1, SMMenu2]} cols={2} />
                     </Stack>
-                    <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                        <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                            <a href="https://harleyposter.itch.io/space-merchant" target="_blank" >
-                                Visit the Itch.io Page!
-                            </a>
+                    <Stack direction={"row"}>
+                        <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                                <a href="https://harleyposter.itch.io/space-merchant" target="_blank" >
+                                    Visit the Itch.io Page!
+                                </a>
+                            </Container>
                         </Container>
-                    </Container>
+                        <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                                <a href="https://drive.google.com/file/d/1XmMSkCvL0qhe5dHPELS7nV58hnUbuI35/view?usp=drive_link" target="_blank" >
+                                    Check out the Source Code!
+                                </a>
+                            </Container>
+                        </Container>
+                    </Stack>
                 </Stack>
-            </header>
-        </div>
+            </header >
+        </div >
     );
 }
 

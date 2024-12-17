@@ -18,6 +18,7 @@ import BlundgeonPage from './pages/projects/Blundgeon';
 import CeValuatePage from './pages/projects/CeValuate';
 import GroundwardPage from './pages/projects/Groundward';
 import UE2DToolPage from './pages/projects/UE2DTool';
+import GemScapePage from './pages/projects/GemScape';
 
 
 
@@ -80,7 +81,7 @@ function App() {
                 <Route path="/Projects/CeValuate" element={<CeValuatePage />} />
                 <Route path="/Projects/Groundward" element={<GroundwardPage />} />
                 <Route path="/Projects/UE2DTool" element={<UE2DToolPage />} />
-                <Route path="/Projects/TankGame" element={<></>} />
+                <Route path="/Projects/GemScape" element={<GemScapePage />} />
 
             </Routes>
             <footer >@2024 Aidan Davidson All Rights Reserved</footer>

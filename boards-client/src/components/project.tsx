@@ -10,6 +10,7 @@ import BGLogo from '../assets/BlundgeonLogo2.png';
 import GWLogo from '../assets/GroundwardLogo3.png';
 import CVLogo from '../assets/CeValuateLogo.png'
 import UE2DCTLogo from '../assets/UE52DCollisionToolLogo.png'
+import GSLogo from '../assets/GemScapesLogo2.png'
 
 export interface ProjectProps {
   link: string,
@@ -99,6 +100,17 @@ export const UE2DCollisionTool = () => {
       date={"November 20, 2024"}
       status={"Active, In Development"}
       image={UE2DCTLogo} />)
+}
+
+export const GemScape = () => {
+  return (
+    <Project title={"GemScape"}
+      desc={"Gemscape is an experimental 3D platformer that allows you to change your gravity. Explore a randomly generated cluster of crystal out in space, and collect some small gems for yourself. Think with gravity to get as many as possible without falling out."}
+      type={"PC Single Player Game"}
+      link={"/Projects/Gemscape"}
+      date={"December 3, 2023"}
+      status={"Finished"}
+      image={GSLogo} />)
 }
 
 

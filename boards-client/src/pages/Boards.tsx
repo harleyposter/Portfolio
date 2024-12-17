@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import '../App.css';
-import { Blundgeon, CeValuate, GroundWard, PowerHouse, Project, SpaceMerchant, STPC, UE2DCollisionTool } from '../components/Project';
+import { Blundgeon, CeValuate, GemScape, GroundWard, PowerHouse, Project, SpaceMerchant, STPC, UE2DCollisionTool } from '../components/Project';
 import { Objective } from '../components/Objective';
 import { Button, Stack, Typography } from '@mui/material';
 
@@ -49,10 +49,11 @@ function Boards() {
           </Button>
         </Stack>
         {(selection === 0 || selection === 1) && <Objective
-          projects={[SpaceMerchant(), PowerHouse(), STPC()]}
+          projects={[SpaceMerchant(), PowerHouse(), STPC(), GemScape()]}
           objectiveText={["Space Merchant is an Unreal Engine 2D mobile game published on Google Play in 2021.",
             "Powerhouse is an Unreal Engine 2D PC game to be released on Steam.",
-            "Subterranean Physics Complex is an Unreal Engine 2D PC Game released on Itch.io."]}
+            "Subterranean Physics Complex is an Unreal Engine 2D PC Game released on Itch.io.",
+            "Gemscape is an experimental Unreal Engine 3D game for PC. "]}
           title={'Objective 1'}
           desc={'Implement multiple completed games, including 3D games, using common tools, languages and software for web, console, PC or mobile platforms'}
           status={'In Progress'}></Objective>}
