@@ -11,6 +11,7 @@ import GWLogo from '../assets/GroundwardLogo3.png';
 import CVLogo from '../assets/CeValuateLogo.png'
 import UE2DCTLogo from '../assets/UE52DCollisionToolLogo.png'
 import GSLogo from '../assets/GemScapesLogo2.png'
+import WBLogo from '../assets/WaveBreaker.png'
 
 export interface ProjectProps {
   link: string,
@@ -111,6 +112,18 @@ export const GemScape = () => {
       date={"December 3, 2023"}
       status={"Finished"}
       image={GSLogo} />)
+}
+
+export const WaveBreaker = () => {
+  return (
+    <Project title={"Wave Breaker"}
+      desc={"Wave Breaker is a thrid person shooter wave survival game. The goal is to make it 25 waves with 5 lives. Pick up stronger weapons, ammo, and health. Try to survive as long as possible!"}
+      type={"PC Single Player Game"}
+      link={"/Projects/WaveBreaker"}
+      date={"December 18, 2024"}
+      status={"Alpha"}
+      image={WBLogo} />
+  )
 }
 
 
