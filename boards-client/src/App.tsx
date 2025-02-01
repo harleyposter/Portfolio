@@ -36,24 +36,19 @@ function App() {
                             <img color={"#fffffff"} height={"100%"} src={ADLogo} />
                         </Container>
                         <Box sx={{ flex: 1, display: { xs: 'none', sm: 'block' } }}>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Projects")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio")}>
                                 <Typography variant="h6" color="white" component="div">
                                     Projects
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Boards")}>
-                                <Typography variant="h6" color="white" component="div">
-                                    Boards
-                                </Typography>
-                            </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/SIP")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio/SIP")}>
                                 <Typography variant="h6" color="white" component="div">
                                     SIP
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/About")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio/About")}>
                                 <Typography variant="h6" color="white" component="div">
-                                    About
+                                    About Me
                                 </Typography>
                             </Button>
                             {/*<Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/About")}>
@@ -70,20 +65,19 @@ function App() {
 
 
             <Routes>
-                <Route path="/Projects" element={<Home />} />
-                <Route path="/Boards" element={<Boards />} />
-                <Route path="/SIP" element={<UE2DToolPage />} />
-                <Route path="/About" element={<About />} />
+                <Route path="/Portfolio" element={<Home />} />
+                <Route path="/Portfolio/SIP" element={<UE2DToolPage />} />
+                <Route path="/Portfolio/About" element={<About />} />
 
-                <Route path="/Projects/SpaceMerchant" element={<SpaceMerchantPage />} />
-                <Route path="/Projects/PowerHouse" element={<PowerHousePage />} />
-                <Route path="/Projects/SubTerraneanPhysicsComplex" element={<STPCPage />} />
-                <Route path="/Projects/Blundgeon" element={<BlundgeonPage />} />
-                <Route path="/Projects/CeValuate" element={<CeValuatePage />} />
-                <Route path="/Projects/Groundward" element={<GroundwardPage />} />
-                <Route path="/Projects/UE2DTool" element={<UE2DToolPage />} />
-                <Route path="/Projects/GemScape" element={<GemScapePage />} />
-                <Route path="/Projects/WaveBreaker" element={<WaveBreakerPage />} />
+                <Route path="/Portfolio/SpaceMerchant" element={<SpaceMerchantPage />} />
+                <Route path="/Portfolio/PowerHouse" element={<PowerHousePage />} />
+                <Route path="/Portfolio/SubTerraneanPhysicsComplex" element={<STPCPage />} />
+                <Route path="/Portfolio/Blundgeon" element={<BlundgeonPage />} />
+                <Route path="/Portfolio/CeValuate" element={<CeValuatePage />} />
+                <Route path="/Portfolio/Groundward" element={<GroundwardPage />} />
+                <Route path="/Portfolio/UE2DTool" element={<UE2DToolPage />} />
+                <Route path="/Portfolio/GemScape" element={<GemScapePage />} />
+                <Route path="/Portfolio/WaveBreaker" element={<WaveBreakerPage />} />
 
 
             </Routes>

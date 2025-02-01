@@ -31,7 +31,7 @@ export const SpaceMerchant = () => {
     < Project title={"Space Merchant"}
       desc={"Space Merchant is a resource management shoot-em-up game, with a death based progression system that rewards endurance. The player has to maneuver about and destroy an oncoming barrage of asteroids, ships, and bosses to harvest materials to upgrade their ship. Get stronger, strategize spending, and manage risks to make it farther into each run."}
       type={"Mobile Single Player Game"}
-      link={"/Projects/SpaceMerchant"}
+      link={"/Portfolio/SpaceMerchant"}
       date={"April 5, 2021"}
       status={"Released"}
       image={SMLogo} />)
@@ -42,7 +42,7 @@ export const PowerHouse = () => {
     <Project title={"Powerhouse"}
       desc={"Powerhouse is a retro 2D Metroidvania Platformer where players fight through and explore their father's manor, finding equipment along the way. Master simple jump and shoot gameplay with complex movement and combat abilities to fight bosses between 3 different areas to release the lockdown and save your father."}
       type={"PC Single Player Game"}
-      link={"/Projects/PowerHouse"}
+      link={"/Portfolio/PowerHouse"}
       date={"May 18, 2024"}
       status={"Active, In Development"}
       image={PHLogo} />)
@@ -53,7 +53,7 @@ export const STPC = () => {
     <Project title={"SubTerranean Physics Complex"}
       desc={"SubTerranean Physics Complex is a 2D Puzzle Precision Platformer where players must use a magnet on a rope as a grappling hook to explore an abandoned laboratory for lost technology. Plan out your movements through each obstacle, and precisely execute to beat each room. Traverse through 4 levels with unique obstacles, collectibles, and secrets."}
       type={"Pc Single Player Game"}
-      link={"/Projects/SubTerraneanPhysicsComplex"}
+      link={"/Portfolio/SubTerraneanPhysicsComplex"}
       date={"October 27, 2020"}
       status={"Paused, Polishing"}
       image={STPCLogo} />)
@@ -64,7 +64,7 @@ export const Blundgeon = () => {
     <Project title={"Blundgeon"}
       desc={"Blundgeon is a PvP Free for All Arena Shooter with RPG elements in a procedurally generated map. The game combines DOOM movement, gunplay, and multiplayer fights with RPG stats, items, abilities, and PvE encounters for engaging matches. The game encourages a mix of battle strategy, map exploration, gathering equipment, scaling stats, and pure FPS skill to outplay your opponents."}
       type={"Pc Multiplayer Game"}
-      link={"/Projects/Blundgeon"}
+      link={"/Portfolio/Blundgeon"}
       date={"June 12, 2021"}
       status={"Paused, In Development"}
       image={BGLogo} />)
@@ -75,7 +75,7 @@ export const CeValuate = () => {
     <Project title={"CeValuate"}
       desc={"CeValuate is a web application being developed for UHaul Repwest Insurance to handle and displays data regarding insurance claims. Reads from a database for employee use in calculating item valuation in claims. Utilizes Market Price APIs to find and calculate an items valuation using inputted information from claimants."}
       type={"Web Application"}
-      link={"/Projects/CeValuate"}
+      link={"/Portfolio/CeValuate"}
       date={"November 16, 2024"}
       status={"Active, In Development"}
       image={CVLogo} />)
@@ -86,7 +86,7 @@ export const GroundWard = () => {
     <Project title={"Groundward"}
       desc={"Groundward is a 2.5D Puzzle Adventure Platformer inspired by the indie game FEZ (2012). Explore a mystical and mysterious cavern in a 2D perspective, and change the perspective to traverse otherwise impossible environments. Learn the secrets of an unknown society and discover their past. Learn and use the power of music to restore the mines. Find a way out."}
       type={"PC Single Player Game"}
-      link={"/Projects/Groundward"}
+      link={"/Portfolio/Groundward"}
       date={"February 28, 2021"}
       status={"Paused, In Development"}
       image={GWLogo} />)
@@ -97,7 +97,7 @@ export const UE2DCollisionTool = () => {
     <Project title={"Unreal Engine 2DTilemap++"}
       desc={"Unreal Engine 2DTilemap++ adds functionality for both creating and editing 2D Collision using Tile Maps. Upload a map texture, and tiles will be created based on a created rerference table. Also can dynamically create collision based on a camera view, allowing for 2D slices of 3D Models."}
       type={"Unreal Engine 5 Addon"}
-      link={"/Projects/UE2DTool"}
+      link={"/Portfolio/UE2DTool"}
       date={"November 20, 2024"}
       status={"Active, In Development"}
       image={UE2DCTLogo} />)
@@ -108,7 +108,7 @@ export const GemScape = () => {
     <Project title={"GemScape"}
       desc={"Gemscape is an experimental 3D platformer that allows you to change your gravity. Explore a randomly generated cluster of crystal out in space, and collect some small gems for yourself. Think with gravity to get as many as possible without falling out."}
       type={"PC Single Player Game"}
-      link={"/Projects/Gemscape"}
+      link={"/Portfolio/Gemscape"}
       date={"December 3, 2023"}
       status={"Finished"}
       image={GSLogo} />)
@@ -119,7 +119,7 @@ export const WaveBreaker = () => {
     <Project title={"Wave Breaker"}
       desc={"Wave Breaker is a thrid person shooter wave survival game. The goal is to make it 25 waves with 5 lives. Pick up stronger weapons, ammo, and health. Try to survive as long as possible!"}
       type={"PC Single Player Game"}
-      link={"/Projects/WaveBreaker"}
+      link={"/Portfolio/WaveBreaker"}
       date={"December 18, 2024"}
       status={"Alpha"}
       image={WBLogo} />

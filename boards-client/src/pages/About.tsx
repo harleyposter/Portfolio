@@ -9,10 +9,66 @@ function About() {
     <div className="App">
       <header className="App-header">
 
+        <Stack direction={"row"}>
+          <Container style={{ width: 400, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+              Contact Info
+            </Container>
+
+            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, fontSize: theme.typography.h6.fontSize, padding: 10 }}>
+              <Stack >
+                <div>Aidan Davidson</div>
+                <div>aidan.davidson099@gmail.com</div>
+                <div>(623) 249-8639</div>
+              </Stack>
+
+            </Container>
+          </Container>
+          <Container style={{ width: 400, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+              Links
+            </Container>
+
+            <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, fontSize: theme.typography.h6.fontSize, padding: 10 }}>
+              <Stack>
+                <a href="https://www.linkedin.com/in/aidan-davidson-0877a21a1/" target="_blank" >
+                  LinkedIn
+                </a>
+                <a href="https://harleyposter.itch.io" target="_blank" >
+                  Itch.io
+                </a>
+                <a href="https://www.youtube.com/channel/UCsuseZMKy1GnPkU9Z3gEUIw" target="_blank" >
+                  Youtube
+                </a>
+              </Stack>
+            </Container>
+          </Container>
+        </Stack>
+
+        <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+            About Me
+          </Container>
+
+          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.h6.fontSize, padding: 10 }}>
+            &ensp;&ensp;&ensp;My name is Aidan Davidson, and I am a graduate from UAT (University of Advancing Technology) with a degree in Game Programming.
+            I have been a Game Programmer for 8+ years, with experience in Unreal Engine, Unity, Java, React, C++, C#, SQL, and more.
+            I have been playing video games since I was young, and the effort they put in inspired me to become a game developer myself.
+            I have up dozens of projects under my belt, all in different engines, different styles, different purposes, and different languages.
+            Each and every one has been a stepping stone to get me where I am today.
+            My goal as a game developer is simple. I want to be the one to inspire others the way I was.
+            I want to give back to the industry that made me who I am today.
+          </Container>
+        </Container>
+
+
+
         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
             Community Statement
           </Container>
+
+
 
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.body1.fontSize, padding: 10 }}>
             &ensp;&ensp;&ensp;The community I find myself calling home is the video game development industry. This community made me who I am today.
@@ -35,42 +91,9 @@ function About() {
           </Container>
         </Container>
 
-        <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-            About Me
-          </Container>
 
-          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.h6.fontSize, padding: 10 }}>
-            &ensp;&ensp;&ensp;My name is Aidan Davidson, and I am a college student at UAT (University of Advancing Technology).
-            I have been a Game Programmer for 8+ years, with experience in Unreal Engine, Unity, Java, React, C++, C#, SQL, and more.
-            I have been playing video games since I was young, and the effort they put in inspired me to become a game developer myself.
-            So far I have up dozens of projects under my belt, all in different engines, different styles, different purposes, and different languages.
-            Each and every one has been a stepping stone to get me where I am today.
-            My goal as a game developer is simple. I want to be the one to inspire other the way I was.
-            I want to give back to the industry that made me who I am today.
-          </Container>
-        </Container>
 
-        <Container style={{ width: 400, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-            LINKS
-          </Container>
 
-          <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, fontSize: theme.typography.h6.fontSize, padding: 10 }}>
-            <a href="https://www.linkedin.com/in/aidan-davidson-0877a21a1/" target="_blank" >
-              LinkedIn
-            </a>
-            &ensp;&ensp;&ensp;&ensp;
-            <a href="https://harleyposter.itch.io" target="_blank" >
-              Itch.io
-            </a>
-            &ensp;&ensp;&ensp;&ensp;
-            <a href="https://www.youtube.com/channel/UCsuseZMKy1GnPkU9Z3gEUIw" target="_blank" >
-              Youtube
-            </a>
-
-          </Container>
-        </Container>
       </header>
     </div>
   );
