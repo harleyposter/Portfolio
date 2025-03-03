@@ -36,17 +36,17 @@ function App() {
                             <img color={"#fffffff"} height={"100%"} src={ADLogo} />
                         </Container>
                         <Box sx={{ flex: 1, display: { xs: 'none', sm: 'block' } }}>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio")}>
                                 <Typography variant="h6" color="white" component="div">
                                     Projects
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio/SIP")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio/SIP")}>
                                 <Typography variant="h6" color="white" component="div">
                                     SIP
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/Portfolio/About")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio/About")}>
                                 <Typography variant="h6" color="white" component="div">
                                     About Me
                                 </Typography>
@@ -65,19 +65,19 @@ function App() {
 
 
             <Routes>
-                <Route path="/Portfolio" element={<Home />} />
-                <Route path="/Portfolio/SIP" element={<UE2DToolPage />} />
-                <Route path="/Portfolio/About" element={<About />} />
+                <Route path="/portfolio" element={<Home />} />
+                <Route path="/portfolio/SIP" element={<UE2DToolPage />} />
+                <Route path="/portfolio/About" element={<About />} />
 
-                <Route path="/Portfolio/SpaceMerchant" element={<SpaceMerchantPage />} />
-                <Route path="/Portfolio/PowerHouse" element={<PowerHousePage />} />
-                <Route path="/Portfolio/SubTerraneanPhysicsComplex" element={<STPCPage />} />
-                <Route path="/Portfolio/Blundgeon" element={<BlundgeonPage />} />
-                <Route path="/Portfolio/CeValuate" element={<CeValuatePage />} />
-                <Route path="/Portfolio/Groundward" element={<GroundwardPage />} />
-                <Route path="/Portfolio/UE2DTool" element={<UE2DToolPage />} />
-                <Route path="/Portfolio/GemScape" element={<GemScapePage />} />
-                <Route path="/Portfolio/WaveBreaker" element={<WaveBreakerPage />} />
+                <Route path="/portfolio/SpaceMerchant" element={<SpaceMerchantPage />} />
+                <Route path="/portfolio/PowerHouse" element={<PowerHousePage />} />
+                <Route path="/portfolio/SubTerraneanPhysicsComplex" element={<STPCPage />} />
+                <Route path="/portfolio/Blundgeon" element={<BlundgeonPage />} />
+                <Route path="/portfolio/CeValuate" element={<CeValuatePage />} />
+                <Route path="/portfolio/Groundward" element={<GroundwardPage />} />
+                <Route path="/portfolio/UE2DTool" element={<UE2DToolPage />} />
+                <Route path="/portfolio/GemScape" element={<GemScapePage />} />
+                <Route path="/portfolio/WaveBreaker" element={<WaveBreakerPage />} />
 
 
             </Routes>
