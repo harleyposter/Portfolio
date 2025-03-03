@@ -1,7 +1,7 @@
 {
   "name": "boards-client",
   "version": "0.1.0",
-  "homepage": "https://harleyposter.github.io/Portfolio",
+  "homepage": "https://harleyposter.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
